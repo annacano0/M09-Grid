@@ -19,16 +19,13 @@ header {
     grid-area: header;
     background-color: #4CAF50;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+
 }
 
 aside {
     grid-area: aside;
     background-color: #f44336;
     color: white;
-    padding: 10px;
 }
 
 main {
@@ -48,7 +45,6 @@ footer {
     grid-area: footer;
     background-color: #4CAF50;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -58,16 +54,13 @@ main > header {
     background-color: #e91e63;
     color: white;
     text-align: center;
-    padding: 10px;
 }
 
 section {
     background-color: #ff9800;
     color: white;
-    display: flex;
     align-items: center;
     justify-content: center;
-    padding: 10px;
 }
 
 .section1 {
@@ -90,11 +83,9 @@ section {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     gap: 10px;
-    padding: 10px;
 }
 
 article {
     background-color: #64B5F6;
     text-align: center;
-    padding: 5px;
 }
